@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .wrapper {
+    background-color: #ffffff; 
+    padding: 107px 235px;
+    font-size: 0;
+    color: 888888;
+    background-image: repeating-linear-gradient(to right, transparent,transparent 30px, #ffe5e5 30px, #ffe5e5 70px);
+  }
+  
+  .iconWrapper {
+    display: inline-block;
+    background-color: #2a69a6;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    line-height: 100px;
+    margin: 0 auto;
+    border-radius: 70px;
+  }
+  
+  .iconWrapper :hover {
+    display: inline-block;
+    background-color: white;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    line-height: 100px;
+    margin: 0 auto;
+    border: 1px solid #4b7db0 ;
+    border-radius: 70px;
+  }
+  .centerCard {
+    display: inline-block;
+    width: 33.33%;
+    text-align: center;
+  }
+  
+  p {
+    font-size: 14px;
+    font-family: "Raleway", sans-serif;
+    line-height: 24px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: normal;
+    margin: 35px 0 40px 0;
+  }
+ 
+  p i:hover {
+    color: #2a69a6; 
+    margin-top: 33%;
+    display: inline-block;
+  }
+
+  i {
+    color: white; 
+    margin-top: 33%;
+    display: inline-block;
+  }
+  
